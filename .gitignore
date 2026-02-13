@@ -1,0 +1,6 @@
+﻿**/bin/
+**/obj/
+.idea/
+*.log
+/BeginnerTutorial/Section*/*.pptx
+
