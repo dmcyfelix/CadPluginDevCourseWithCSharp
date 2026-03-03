@@ -9,7 +9,7 @@ public class Part45
         // 1. Use using statement to create database transaction object, ensuring proper resource disposal
         using var tr = new DBTrans();
         // 2. 设置圆弧的圆心
-        // 2. Set the center of the arc
+        // 2. Set the center of the Ellipse
         var centerPoint = new Point3d(0, 0, 0);
         // 3. 设置椭圆的长轴
         // 3. Set the major axis of the ellipse

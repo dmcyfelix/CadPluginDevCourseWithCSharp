@@ -2,8 +2,8 @@
 
 public class Part41
 {
-    [CommandMethod(nameof(TestAddLine))]
-    public static void TestAddLine()
+    [CommandMethod(nameof(AddLine))]
+    public static void AddLine()
     {
         // 1. 向命令行输出文本，进行初步的用户交互
         // 1. Output text to the command line for initial user interaction
@@ -24,8 +24,8 @@ public class Part41
         Env.Printl("[English]: A line has been successfully added to the drawing.");
     }
 
-    [CommandMethod(nameof(TestAddMutipleLine))]
-    public static void TestAddMutipleLine()
+    [CommandMethod(nameof(AddMutipleLine))]
+    public static void AddMutipleLine()
     {
         // 1. 向命令行输出文本，进行初步的用户交互
         // 1. Output text to the command line for initial user interaction

@@ -34,7 +34,7 @@ public class Part82
         // 2. Add a text style named daziti, where the big font is gbcbig.shx.
         tr.TextStyleTable.Add("daziti", ttr =>
         {
-            ttr.FileName = "romas.shx";
+            ttr.FileName = "romans.shx";
             ttr.BigFontFileName = "gbcbig.shx";
         });
     }
