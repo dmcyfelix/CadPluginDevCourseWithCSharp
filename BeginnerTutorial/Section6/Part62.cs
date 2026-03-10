@@ -17,9 +17,11 @@ public class Part62
         var ppr = Env.Editor.GetPoint("\n指定第一个角点(first corner point):");
         if (ppr.Status != PromptStatus.OK) return;
         var p1 = ppr.Value.Ucs2Wcs();
+        Env.Printl($"第一个角点(first corner point): {p1.ToString()}");
         ppr = Env.Editor.GetPoint("\n指定第二个角点(second corner point):");
         if (ppr.Status != PromptStatus.OK) return;
         var p2 = ppr.Value.Ucs2Wcs();
+        Env.Printl($"第二个角点(second corner point): {p2.ToString()}");
         var psr = Env.Editor.SelectWindow(p1, p2);
         if (psr.Status != PromptStatus.OK) return;
         var ss = psr.Value;
@@ -32,9 +34,11 @@ public class Part62
         var ppr = Env.Editor.GetPoint("\n指定第一个角点(first corner point):");
         if (ppr.Status != PromptStatus.OK) return;
         var p1 = ppr.Value.Ucs2Wcs();
+        Env.Printl($"第一个角点(first corner point): {p1.ToString()}");
         ppr = Env.Editor.GetPoint("\n指定第二个角点(second corner point):");
         if (ppr.Status != PromptStatus.OK) return;
         var p2 = ppr.Value.Ucs2Wcs();
+        Env.Printl($"第二个角点(second corner point): {p2.ToString()}");
         var psr = Env.Editor.SelectCrossingWindow(p1, p2);
         if (psr.Status != PromptStatus.OK) return;
         var ss = psr.Value;

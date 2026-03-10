@@ -1,6 +1,6 @@
 ﻿namespace IFoxCADProgramming.Section3;
 
-public class Part34
+public class Part32Second
 {
     [CommandMethod("TestIFoxCadapi")]
     public static void TestIFoxCadapi()

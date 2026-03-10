@@ -1,6 +1,6 @@
 ﻿namespace IFoxCADProgramming.Section3;
 
-public class Part33
+public class Part32First
 {
     [CommandMethod("TestNativeApi")]
     public static void TestNativeApi()

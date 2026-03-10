@@ -63,7 +63,8 @@ public class Part82
         // 2. Change the text style named daziti to dazitinew, where the big font is Sd_hzxh.shx.
         if (tr.TextStyleTable.Has("daziti"))
         {
-            tr.TextStyleTable.AddWithChange("dazitinew", "SD_NUM_NEW.shx", "Sd_hzxh.shx", 0.8, 2.5, true);
+            tr.TextStyleTable.AddWithChange("dazitinew", "SD_NUM_NEW.shx", 
+                "Sd_hzxh.shx", 0.8, 2.5, true);
         }
     }
 

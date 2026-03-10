@@ -28,6 +28,7 @@ public class Part86
         var line2 = new Line(new Point3d(0, 0, 0), new Point3d(-1, 1, 0));
         ents.Add(line1);
         ents.Add(line2);
+        
         var atts = new List<AttributeDefinition>();
         var att1 = new AttributeDefinition()
             { Position = new Point3d(10, 10, 0), Tag = "tagTest1", Height = 1, TextString = "valueTest1" };

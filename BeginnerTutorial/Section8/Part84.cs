@@ -46,7 +46,8 @@ public class Part84
         // 2. Unload CENTER line type.
         if (tr.DimStyleTable.Has("CUSDIMSTYLE"))
         {
-            tr.LinetypeTable["CUSDIMSTYLE"].Erase();
+            Env.Printl("卸载名为CUSDIMSTYLE的标注样式(The dimstyle named CUSDIMSTYLE has been unloaded.)");
+            tr.DimStyleTable["CUSDIMSTYLE"].Erase();
         }
     }
 }

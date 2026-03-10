@@ -37,8 +37,8 @@ public class Part48
         // 2. Use the CreateMText method of the MTextEx class in IFoxCAD to create an MText object
         const string txtContent = "这是多行文本的示例。多行文本可以自动换行，并且支持更丰富的格式控制，如字体、颜色和对齐方式。\n" +
                                   "This is an example of MText, which supports automatic wrapping and rich formatting.";
-        var tmpMText = MTextEx.CreateMText(new Point3d(0, 50, 0), txtContent,
-            10,  null, mtxt =>
+        var tmpMText = MTextEx.CreateMText(new Point3d(0, 0, 0), txtContent,
+            3,  null, mtxt =>
             {
                 mtxt.Width = 50;
                 mtxt.Attachment = AttachmentPoint.TopLeft;

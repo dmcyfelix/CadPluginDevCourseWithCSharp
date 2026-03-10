@@ -8,7 +8,7 @@ public class Part45
         // 1. 使用using语句创建数据库事务对象，确保资源正确释放
         // 1. Use using statement to create database transaction object, ensuring proper resource disposal
         using var tr = new DBTrans();
-        // 2. 设置圆弧的圆心
+        // 2. 设置Ellipse的圆心
         // 2. Set the center of the Ellipse
         var centerPoint = new Point3d(0, 0, 0);
         // 3. 设置椭圆的长轴
