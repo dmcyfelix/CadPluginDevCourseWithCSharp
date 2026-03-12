@@ -1,4 +1,4 @@
-**English** | [简体中文](readme_zh.md)
+**English** | [简体中文](README_zh.md)
 
 **🚀 Master AutoCAD API: C# Development with IFoxCAD Framework**
 
