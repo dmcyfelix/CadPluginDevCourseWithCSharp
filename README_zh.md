@@ -1,3 +1,5 @@
+[English](readme.md) | **简体中文**
+
 **🚀 掌握 AutoCAD 核心：基于 C# 与 IFoxCAD 的二次开发实战**
 
 很多开发者在初次接触 AutoCAD .NET API 时，都会被其陡峭的学习曲线和繁琐的底层原生调用折磨。本仓库/本文包含了利用 IFoxCAD 框架大幅简化开发流程的实战源码。
