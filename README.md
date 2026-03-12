@@ -1,3 +1,5 @@
+**English** | [简体中文](readme_zh.md)
+
 **🚀 Master AutoCAD API: C# Development with IFoxCAD Framework**
 
 The learning curve for the vanilla AutoCAD .NET API can be notoriously steep. 
