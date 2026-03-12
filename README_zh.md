@@ -1,4 +1,4 @@
-[English](readme.md) | **简体中文**
+[English](README.md) | **简体中文**
 
 **🚀 掌握 AutoCAD 核心：基于 C# 与 IFoxCAD 的二次开发实战**
 
